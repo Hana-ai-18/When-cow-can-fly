@@ -12,9 +12,9 @@ import os
 Window.size = (800, 520)
 
 # Cấu hình đường dẫn
-BASE_PATH = os.path.join("assets", "images", "backgrounds", "background_1")
+BASE_PATH = os.path.join("assets", "images", "background_1")
 
-GROUND_PATH = r"assets\images\backgrounds\background_1\ground.png"
+GROUND_PATH = r"assets\images\backgrounds\ground.png"
 
 class ParallaxLayer:
     def __init__(self, source, speed):
